@@ -150,16 +150,6 @@ function handleAudioStream(stream) {
     setInterval(analyze, 100);
 }
 
-function blowCandles() {
-    // Logic to 'blow out' candles
-    // For example, hide the candle flames or change their appearance
-    const candles = document.querySelectorAll('.candle');
-    candles.forEach(candle => {
-        // Example: Hide the candle flame
-        candle.style.backgroundColor = 'grey'; // Change as needed
-    });
-}
-
 function removeHalfCandles(duration) {
     const candles = document.querySelectorAll('.candle-body');
 
